@@ -1,0 +1,11 @@
+{
+    "name": "Los Angeles Lakers",
+    "wins": 16,
+    "losses": 46,
+    "opponent": "Dallas Mavericks",
+    "opponent_wins": 41,
+    "opponent_losses": 24,
+    "score": 93,
+    "opponent_score": 100,
+    "third_quarter_score": 77,
+    "fourth_quarter_score": 16,

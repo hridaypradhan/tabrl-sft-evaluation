@@ -1,0 +1,13 @@
+{
+    "name": "Los Angeles Clippers",
+    "wins": 1,
+    "losses": 1,
+    "points": 109,
+    "rebounds": 40,
+    "assists": 22,
+    "blocks": 4,
+    "steals": 6,
+    "turnovers": 18,
+    "field_goal_percentage": 0.45,
+    "three_point_field_goal_percentage": 0.24,
+    "free_throw_percentage": 0

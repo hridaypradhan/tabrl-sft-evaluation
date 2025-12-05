@@ -1,0 +1,53 @@
+{
+  "table_id": "soccer_match",
+  "columns": [
+    {
+      "name": "Team",
+      "type": "string"
+    },
+    {
+      "name": "Event",
+      "type": "string"
+    },
+    {
+      "name": "Player",
+      "type": "string"
+    },
+    {
+      "name": "Action",
+      "type": "string"
+    },
+    {
+      "name": "Location",
+      "type": "string"
+    },
+    {
+      "name": "Type",
+      "type": "string"
+    },
+    {
+      "name": "Result",
+      "type": "string"
+    },
+    {
+      "name": "Score",
+      "type": "string"
+    },
+    {
+      "name": "Assist",
+      "type": "string"
+    },
+    {
+      "name": "Minute",
+      "type": "integer"
+    },
+    {
+      "name": "Half",
+      "type": "integer"
+    },
+    {
+      "name": "Goals",
+      "type": "integer"
+    }
+  ]
+}

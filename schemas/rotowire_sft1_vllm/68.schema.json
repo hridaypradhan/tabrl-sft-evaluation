@@ -1,0 +1,11 @@
+{
+    "home_team": ["Rockets", "Pelicans"],
+    "away_team": ["Pelicans", "Rockets"],
+    "home_score": [122, 114],
+    "away_score": [114, 122],
+    "home_rebounds": [43, 44],
+    "away_rebounds": [44, 43],
+    "home_assists": [31, 25],
+    "away_assists": [25, 31],
+    "home_steals": [7, 6],
+    "away_steals": [6

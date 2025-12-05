@@ -1,0 +1,16 @@
+{
+  "table_id": "soccer_match_stats",
+  "columns": [
+    {"name": "home_team", "type": "string"},
+    {"name": "away_team", "type": "string"},
+    {"name": "score_home", "type": "integer"},
+    {"name": "score_away", "type": "integer"},
+    {"name": "goals_home", "type": "integer"},
+    {"name": "goals_away", "type": "integer"},
+    {"name": "yellow_cards_home", "type": "integer"},
+    {"name": "yellow_cards_away", "type": "integer"},
+    {"name": "red_cards_home", "type": "integer"},
+    {"name": "red_cards_away", "type": "integer"},
+    {"name": "corners_home", "type": "integer"},
+    {"name": "corners_away", "type": "integer"}
+  ]

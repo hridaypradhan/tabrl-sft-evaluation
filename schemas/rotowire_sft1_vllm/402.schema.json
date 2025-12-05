@@ -1,0 +1,16 @@
+{
+      "points": 19,
+      "rebounds": 13,
+      "assists": null,
+      "steals": null
+    }
+  }
+}
+```
+
+### Step 1: Identify the JSON schema for the tables.
+The JSON schema for the tables can be identified by looking at the structure of the JSON object. The schema consists of the keys "Suns", "Nets", "Suns vs Nets", "Suns stats", and "Nets stats".
+
+### Step 2: Determine the properties of each table.
+Each table has the following properties:
+- "Suns" and "Nets" tables have properties "

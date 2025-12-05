@@ -1,0 +1,53 @@
+{
+  "table_id": "soccer_match",
+  "columns": [
+    {
+      "name": "Home Team",
+      "type": "string"
+    },
+    {
+      "name": "Away Team",
+      "type": "string"
+    },
+    {
+      "name": "Score",
+      "type": "string"
+    },
+    {
+      "name": "Event Type",
+      "type": "string"
+    },
+    {
+      "name": "Player",
+      "type": "string"
+    },
+    {
+      "name": "Location",
+      "type": "string"
+    },
+    {
+      "name": "Assist",
+      "type": "string"
+    },
+    {
+      "name": "Goal",
+      "type": "string"
+    },
+    {
+      "name": "Own Goal",
+      "type": "string"
+    },
+    {
+      "name": "Yellow Card",
+      "type": "string"
+    },
+    {
+      "name": "Red Card",
+      "type": "string"
+    },
+    {
+      "name": "Foul",
+      "type": "string"
+    }
+  ]
+}

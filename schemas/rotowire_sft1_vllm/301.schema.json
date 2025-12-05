@@ -1,0 +1,33 @@
+{
+      "points": 11
+    }
+  }
+}
+``` 
+```sql
+SELECT 
+  'timberwolves' AS team,
+  'name' AS column_name,
+  'Minnesota Timberwolves' AS value
+UNION
+SELECT 
+  'timberwolves' AS team,
+  'wins' AS column_name,
+  24 AS value
+UNION
+SELECT 
+  'timberwolves' AS team,
+  'losses' AS column_name,
+  36 AS value
+UNION
+SELECT 
+  'timberwolves' AS team,
+  'road_wins' AS column_name,
+  9 AS value
+UNION
+SELECT 
+  'timberwolves' AS team,
+  'points' AS column_name,
+  102 AS value
+UNION
+SELECT

@@ -1,0 +1,18 @@
+{
+        "name": "Los Angeles Clippers",
+        "wins": 28,
+        "losses": 14,
+        "streak": "won 6 straight since Chris Paul's return"
+    }
+}
+
+# Convert the data to JSON
+json_data = json.dumps(data)
+
+# Print the JSON data
+print(json_data)
+```
+
+
+```python
+import json

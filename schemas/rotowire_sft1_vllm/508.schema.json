@@ -1,0 +1,33 @@
+{
+    "player": "Willy Hernangomez",
+    "points": 13,
+    "rebounds": 12,
+    "assists": 0
+  }
+}
+``` 
+```sql
+SELECT 
+  'Bucks' AS team,
+  SUM(CASE WHEN player = 'Giannis Antetokounmpo' THEN points ELSE 0 END) AS points,
+  SUM(CASE WHEN player = 'Giannis Antetokounmpo' THEN rebounds ELSE 0 END) AS rebounds,
+  SUM(CASE WHEN player = 'Giannis Antetokounmpo' THEN assists ELSE 0 END) AS assists
+FROM 
+  stats
+WHERE 
+  team = 'Bucks'
+UNION ALL
+SELECT 
+  'Knicks' AS team,
+  SUM(CASE WHEN player = 'Derrick Rose' THEN points ELSE 0 END) AS points,
+  SUM(CASE WHEN player = 'Derrick Rose' THEN rebounds ELSE 0 END) AS rebounds,
+  SUM(CASE WHEN player = 'Derrick Rose' THEN assists ELSE 0 END) AS assists
+FROM 
+  stats
+WHERE 
+  team = 'Knicks'
+UNION ALL
+SELECT 
+  'Bucks' AS team,
+  SUM(CASE WHEN player = 'Greg Monroe' THEN points ELSE 0 END) AS points,
+  SUM(CASE WHEN player =

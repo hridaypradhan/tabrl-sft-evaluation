@@ -1,0 +1,81 @@
+{
+  "table_id": "soccer_match_stats",
+  "columns": [
+    {
+      "name": "team",
+      "type": "string"
+    },
+    {
+      "name": "event",
+      "type": "string"
+    },
+    {
+      "name": "type",
+      "type": "string"
+    },
+    {
+      "name": "minute",
+      "type": "integer"
+    },
+    {
+      "name": "player",
+      "type": "string"
+    },
+    {
+      "name": "opponent",
+      "type": "string"
+    },
+    {
+      "name": "result",
+      "type": "string"
+    },
+    {
+      "name": "score",
+      "type": "string"
+    },
+    {
+      "name": "goal_type",
+      "type": "string"
+    },
+    {
+      "name": "assist",
+      "type": "string"
+    },
+    {
+      "name": "yellow_card",
+      "type": "string"
+    },
+    {
+      "name": "red_card",
+      "type": "string"
+    },
+    {
+      "name": "foul",
+      "type": "string"
+    },
+    {
+      "name": "corner_kick",
+      "type": "string"
+    },
+    {
+      "name": "free_kick",
+      "type": "string"
+    },
+    {
+      "name": "shot",
+      "type": "string"
+    },
+    {
+      "name": "save",
+      "type": "string"
+    },
+    {
+      "name": "block",
+      "type": "string"
+    },
+    {
+      "name": "handball",
+      "type": "string"
+    }
+  ]
+}

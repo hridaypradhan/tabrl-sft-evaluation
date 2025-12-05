@@ -1,0 +1,12 @@
+{
+    "Player": "string",
+    "Points": "int",
+    "Shooting": "string",
+    "Rebounds": "int",
+    "Assists": "int"
+  }
+}
+
+# Print the JSON schema
+print(json.dumps(json_schema, indent=4))
+```  ```python

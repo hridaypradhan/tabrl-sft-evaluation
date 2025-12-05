@@ -1,0 +1,82 @@
+{
+      "games": 13,
+      "20+ points": 11,
+      "30+ points": 6,
+      "career high": "41 points",
+      "points per game": 29,
+      "field goal percentage": 52,
+      "3-point shooting percentage": 43
+    }
+  }
+}
+``` 
+```sql
+SELECT 
+  JSON_OBJECT(
+    'Kawhi Leonard', JSON_OBJECT(
+      'January', JSON_OBJECT(
+        'games', 13,
+        '20+ points', 11,
+        '30+ points', 6,
+        'career high', '41 points',
+        'points per game', 29,
+        'field goal percentage', 52,
+        '3-point shooting percentage', 43
+      )
+    )
+  ) AS result
+``` 
+```sql
+SELECT 
+  JSON_OBJECT(
+    'Kawhi Leonard', JSON_OBJECT(
+      'January', JSON_OBJECT(
+        'games', 13,
+        '20+ points', 11,
+        '30+ points', 6,
+        'career high', '41 points',
+        'points per game', 29,
+        'field goal percentage', 52,
+        '3-point shooting percentage', 43
+      )
+    )
+  ) AS result
+``` 
+```sql
+SELECT 
+  JSON_OBJECT(
+    'Kawhi Leonard', JSON_OBJECT(
+      'January', JSON_OBJECT(
+        'games', 13,
+        '20+ points', 11,
+        '30+ points', 6,
+        'career high', '41 points',
+        'points per game', 29,
+        'field goal percentage', 52,
+        '3-point shooting percentage', 43
+      )
+    )
+  ) AS result
+``` 
+```sql
+SELECT 
+  JSON_OBJECT(
+    'Kawhi Leonard', JSON_OBJECT(
+      'January', JSON_OBJECT(
+        'games', 13,
+        '20+ points', 11,
+        '30+ points', 6,
+        'career high', '41 points',
+        'points per game', 29,
+        'field goal percentage', 52,
+        '3-point shooting percentage', 43
+      )
+    )
+  ) AS result
+``` 
+```sql
+SELECT 
+  JSON_OBJECT(
+    'Kawhi Leonard', JSON_OBJECT(
+      'January', JSON_OBJECT(
+        'games

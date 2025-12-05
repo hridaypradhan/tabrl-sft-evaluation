@@ -1,0 +1,53 @@
+{
+  "table_id": "soccer_match_stats",
+  "columns": [
+    {
+      "name": "Home Team",
+      "type": "string"
+    },
+    {
+      "name": "Away Team",
+      "type": "string"
+    },
+    {
+      "name": "Goals",
+      "type": "integer"
+    },
+    {
+      "name": "Fouls",
+      "type": "integer"
+    },
+    {
+      "name": "Yellow Cards",
+      "type": "integer"
+    },
+    {
+      "name": "Free Kicks Won",
+      "type": "integer"
+    },
+    {
+      "name": "Corner Kicks Won",
+      "type": "integer"
+    },
+    {
+      "name": "Shots On Target",
+      "type": "integer"
+    },
+    {
+      "name": "Shots Blocked",
+      "type": "integer"
+    },
+    {
+      "name": "Goals Conceded",
+      "type": "integer"
+    },
+    {
+      "name": "Possession",
+      "type": "integer"
+    },
+    {
+      "name": "Result",
+      "type": "string"
+    }
+  ]
+}

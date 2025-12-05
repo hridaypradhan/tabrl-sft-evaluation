@@ -1,0 +1,53 @@
+{
+  "table_id": "soccer_match_stats",
+  "columns": [
+    {
+      "name": "team",
+      "type": "string"
+    },
+    {
+      "name": "score",
+      "type": "integer"
+    },
+    {
+      "name": "goals_scored",
+      "type": "integer"
+    },
+    {
+      "name": "corners",
+      "type": "integer"
+    },
+    {
+      "name": "offsides",
+      "type": "integer"
+    },
+    {
+      "name": "fouls",
+      "type": "integer"
+    },
+    {
+      "name": "yellow_cards",
+      "type": "integer"
+    },
+    {
+      "name": "penalty_kicks",
+      "type": "integer"
+    },
+    {
+      "name": "penalty_goals",
+      "type": "integer"
+    },
+    {
+      "name": "shots_blocked",
+      "type": "integer"
+    },
+    {
+      "name": "shots_saved",
+      "type": "integer"
+    },
+    {
+      "name": "missed_shots",
+      "type": "integer"
+    }
+  ]
+}

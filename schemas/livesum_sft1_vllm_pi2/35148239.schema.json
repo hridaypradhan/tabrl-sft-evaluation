@@ -1,0 +1,57 @@
+{
+  "table_id": "soccer_match",
+  "columns": [
+    {
+      "name": "home_team",
+      "type": "string"
+    },
+    {
+      "name": "away_team",
+      "type": "string"
+    },
+    {
+      "name": "home_score",
+      "type": "integer"
+    },
+    {
+      "name": "away_score",
+      "type": "integer"
+    },
+    {
+      "name": "event_type",
+      "type": "string"
+    },
+    {
+      "name": "player_name",
+      "type": "string"
+    },
+    {
+      "name": "player_number",
+      "type": "integer"
+    },
+    {
+      "name": "location",
+      "type": "string"
+    },
+    {
+      "name": "foot",
+      "type": "string"
+    },
+    {
+      "name": "result",
+      "type": "string"
+    },
+    {
+      "name": "assisted_by",
+      "type": "string"
+    },
+    {
+      "name": "yellow_cards",
+      "type": "integer"
+    },
+    {
+      "name": "goal_scored",
+      "type": "integer"
+    }
+  ]
+}

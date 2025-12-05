@@ -1,0 +1,17 @@
+{
+    "name": "Jordan Clarkson",
+    "team": "Los Angeles Lakers",
+    "games": 7,
+    "points": 10,
+    "rebounds": 4,
+    "assists": 2,
+    "field_goal_percentage": 0.4
+  }
+}
+```
+
+### Step 1: Identify the JSON schema for the tables.
+The JSON schema for the tables is the structure that defines the format of the data. In this case, the schema is defined by the keys and their corresponding data types.
+
+### Step 2: Extract the JSON schema from the given JSON data.
+The JSON schema can be extracted by looking at the keys and their corresponding data types. The keys are "name", "team", "games", "points", "rebounds", "assists", and "field

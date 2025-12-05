@@ -1,0 +1,16 @@
+{
+    "name": "Detroit Pistons",
+    "wins": 6,
+    "losses": 7,
+    "opponent": "Cleveland Cavaliers",
+    "score": 81,
+    "opponent_score": 104,
+    "first_quarter_score": 19,
+    "first_quarter_opponent_score": 30,
+    "top_scorer": "Jon Leuer",
+    "top_scorer_points": 10,
+    "top_scorer_rebounds": 7,
+    "top_scorer_assists": 0,
+    "top_scorer_steals": 0,
+    "top_scorer_blocks": 0,
+    "second_scorer": "Tobias Harris

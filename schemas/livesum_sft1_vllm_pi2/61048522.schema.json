@@ -1,0 +1,53 @@
+{
+  "table_id": "soccer_match_stats",
+  "columns": [
+    {
+      "name": "team",
+      "type": "string"
+    },
+    {
+      "name": "event",
+      "type": "string"
+    },
+    {
+      "name": "type",
+      "type": "string"
+    },
+    {
+      "name": "location",
+      "type": "string"
+    },
+    {
+      "name": "foot",
+      "type": "string"
+    },
+    {
+      "name": "result",
+      "type": "string"
+    },
+    {
+      "name": "assisted_by",
+      "type": "string"
+    },
+    {
+      "name": "goalkeeper_save",
+      "type": "string"
+    },
+    {
+      "name": "own_half",
+      "type": "string"
+    },
+    {
+      "name": "opponent_half",
+      "type": "string"
+    },
+    {
+      "name": "own_team_half",
+      "type": "string"
+    },
+    {
+      "name": "opponent_team_half",
+      "type": "string"
+    }
+  ]
+}

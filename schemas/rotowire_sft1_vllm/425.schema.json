@@ -1,0 +1,8 @@
+{
+      "type": "integer"
+    }
+  },
+  "required": [
+    "team",
+    "player",
+    "points",

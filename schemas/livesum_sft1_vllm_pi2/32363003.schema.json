@@ -1,0 +1,69 @@
+{
+  "table_id": "soccer_match_stats",
+  "columns": [
+    {
+      "name": "team",
+      "type": "string"
+    },
+    {
+      "name": "event",
+      "type": "string"
+    },
+    {
+      "name": "player",
+      "type": "string"
+    },
+    {
+      "name": "type",
+      "type": "string"
+    },
+    {
+      "name": "half",
+      "type": "string"
+    },
+    {
+      "name": "score",
+      "type": "string"
+    },
+    {
+      "name": "minute",
+      "type": "integer"
+    },
+    {
+      "name": "goal_type",
+      "type": "string"
+    },
+    {
+      "name": "assist",
+      "type": "string"
+    },
+    {
+      "name": "yellow_cards",
+      "type": "integer"
+    },
+    {
+      "name": "red_cards",
+      "type": "integer"
+    },
+    {
+      "name": "fouls",
+      "type": "integer"
+    },
+    {
+      "name": "corners",
+      "type": "integer"
+    },
+    {
+      "name": "offsides",
+      "type": "integer"
+    },
+    {
+      "name": "shots",
+      "type": "integer"
+    },
+    {
+      "name": "goals",
+      "type": "integer"
+    }
+  ]
+}

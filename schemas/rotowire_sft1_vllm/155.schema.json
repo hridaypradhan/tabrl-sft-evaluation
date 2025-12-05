@@ -1,0 +1,7 @@
+{"name": "name", "type": "varchar(255)"}
+    ]
+  }
+}
+```
+
+This JSON schema describes three tables: `players`, `games`, and `teams`. The `players` table has three columns: `player_id`, `name`, and `team_id`. The `games` table has five columns: `game_id`, `player_id`, `opponent_id`, `points`, and `rebounds`. The `teams` table has two columns: `team_id` and `name`. The `players` table has a foreign key to the `games` table, and the `games` table has foreign keys to both the `players` and `teams` tables. The primary key for each table is indicated by the `primary_key` attribute in

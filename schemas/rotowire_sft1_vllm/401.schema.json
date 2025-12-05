@@ -1,0 +1,69 @@
+{
+    "points": 24,
+    "rebounds": 7
+  }
+}
+``` 
+```sql
+SELECT 
+  'Utah Jazz' AS team,
+  108 AS points,
+  44 AS wins,
+  28 AS losses
+UNION
+SELECT 
+  'New York Knicks' AS team,
+  101 AS points,
+  27 AS wins,
+  44 AS losses
+UNION
+SELECT 
+  'Rudy Gobert' AS team,
+  35 AS points,
+  0.929 AS field_goal_percentage,
+  13 AS rebounds,
+  4 AS blocks
+UNION
+SELECT 
+  'Gordon Hayward' AS team,
+  NULL AS points,
+  0.353 AS field_goal_percentage,
+  NULL AS rebounds,
+  NULL AS blocks
+UNION
+SELECT 
+  'Kristaps Porzingis' AS team,
+  24 AS points,
+  NULL AS field_goal_percentage,
+  7 AS rebounds,
+  NULL AS blocks
+``` 
+```sql
+SELECT 
+  'Utah Jazz' AS team,
+  108 AS points,
+  44 AS wins,
+  28 AS losses
+UNION
+SELECT 
+  'New York Knicks' AS team,
+  101 AS points,
+  27 AS wins,
+  44 AS losses
+UNION
+SELECT 
+  'Rudy Gobert' AS team,
+  35 AS points,
+  13 AS rebounds,
+  4 AS blocks
+UNION
+SELECT 
+  'Gordon Hayward' AS team,
+  NULL AS points,
+  6 AS field_goals_made,
+  17 AS field_goals_attempted
+UNION
+SELECT 
+  'Kristaps Porzingis' AS team,
+  24 AS points,
+  7 AS rebounds,

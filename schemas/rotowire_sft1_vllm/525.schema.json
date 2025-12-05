@@ -1,0 +1,55 @@
+{
+    "wins": 4,
+    "losses": 11
+  }
+}
+``` 
+```sql
+SELECT 
+  'Kings' AS team,
+  COUNT(CASE WHEN team_name = 'Kings' THEN 1 ELSE NULL END) AS wins,
+  COUNT(CASE WHEN team_name = 'Kings' THEN 1 ELSE NULL END) AS losses
+FROM 
+  games
+UNION ALL
+SELECT 
+  'Timberwolves' AS team,
+  COUNT(CASE WHEN team_name = 'Timberwolves' THEN 1 ELSE NULL END) AS wins,
+  COUNT(CASE WHEN team_name = 'Timberwolves' THEN 1 ELSE NULL END) AS losses
+FROM 
+  games
+UNION ALL
+SELECT 
+  'Kings at home' AS team,
+  COUNT(CASE WHEN team_name = 'Kings' AND location = 'home' THEN 1 ELSE NULL END) AS wins,
+  COUNT(CASE WHEN team_name = 'Kings' AND location = 'home' THEN 1 ELSE NULL END) AS losses
+FROM 
+  games
+UNION ALL
+SELECT 
+  'Timberwolves at home' AS team,
+  COUNT(CASE WHEN team_name = 'Timberwolves' AND location = 'home' THEN 1 ELSE NULL END) AS wins,
+  COUNT(CASE WHEN team_name = 'Timberwolves' AND location = 'home' THEN 1 ELSE NULL END) AS losses
+FROM 
+  games;
+``` 
+```sql
+SELECT 
+  'Kings' AS team,
+  13 AS wins,
+  17 AS losses
+UNION ALL
+SELECT 
+  'Timberwolves' AS team,
+  9 AS wins,
+  20 AS losses
+UNION ALL
+SELECT 
+  'Kings at home' AS team,
+  7 AS wins,
+  11 AS losses
+UNION ALL
+SELECT 
+  'Timberwolves at home' AS team,
+  4 AS wins,
+  11 AS losses

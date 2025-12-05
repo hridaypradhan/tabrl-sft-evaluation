@@ -1,0 +1,27 @@
+{
+      "name": "Devin Booker",
+      "points": 31,
+      "rebounds": 0,
+      "assists": 0,
+      "blocks": 0,
+      "minutes": 0
+    }
+  }
+}
+``` 
+```sql
+SELECT 
+  Bucks.points,
+  Bucks.field_percentage,
+  Bucks.paint_points,
+  Bucks.paint_points_opponent,
+  Bucks.player1.name AS Bucks_player1_name,
+  Bucks.player1.points AS Bucks_player1_points,
+  Bucks.player1.rebounds AS Bucks_player1_rebounds,
+  Bucks.player1.assists AS Bucks_player1_assists,
+  Bucks.player1.blocks AS Bucks_player1_blocks,
+  Bucks.player1.minutes AS Bucks_player1_minutes,
+  Bucks.player2.name AS Bucks_player2_name,
+  Bucks.player2.points AS Bucks_player2_points,
+  Bucks.player2.rebounds AS Bucks_player2_rebounds,
+  Bucks.player2.assists AS Bucks_player

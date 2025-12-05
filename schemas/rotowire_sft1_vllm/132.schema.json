@@ -1,0 +1,33 @@
+{
+    "points": 22,
+    "rebounds": 6
+  }
+}
+``` 
+```sql
+SELECT 
+  'Utah Jazz' AS team,
+  109 AS points,
+  42 AS rebounds,
+  52 AS points_in_paint,
+  0.5 AS field_goal_percentage,
+  7 AS rebounds_differential,
+  18 AS points_in_paint_differential
+UNION
+SELECT 
+  'Milwaukee Bucks' AS team,
+  95 AS points,
+  35 AS rebounds,
+  34 AS points_in_paint,
+  0.43 AS field_goal_percentage,
+  -7 AS rebounds_differential,
+  -18 AS points_in_paint_differential
+UNION
+SELECT 
+  'Gordon Hayward' AS team,
+  29 AS points,
+  3 AS rebounds,
+  4 AS assists
+UNION
+SELECT 
+  'Derrick F

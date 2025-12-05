@@ -1,0 +1,53 @@
+{
+  "table_id": "soccer_match",
+  "columns": [
+    {
+      "name": "Team",
+      "type": "string"
+    },
+    {
+      "name": "Event",
+      "type": "string"
+    },
+    {
+      "name": "Minute",
+      "type": "integer"
+    },
+    {
+      "name": "Type",
+      "type": "string"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "Assist",
+      "type": "string"
+    },
+    {
+      "name": "Goal",
+      "type": "string"
+    },
+    {
+      "name": "Score",
+      "type": "string"
+    },
+    {
+      "name": "Card",
+      "type": "string"
+    },
+    {
+      "name": "Foul",
+      "type": "string"
+    },
+    {
+      "name": "Offside",
+      "type": "string"
+    },
+    {
+      "name": "Result",
+      "type": "string"
+    }
+  ]
+}

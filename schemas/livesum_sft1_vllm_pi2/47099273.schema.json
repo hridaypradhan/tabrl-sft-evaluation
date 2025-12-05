@@ -1,0 +1,53 @@
+{
+  "table_id": "soccer_match",
+  "columns": [
+    {
+      "name": "Home Team",
+      "type": "string"
+    },
+    {
+      "name": "Away Team",
+      "type": "string"
+    },
+    {
+      "name": "Event",
+      "type": "string"
+    },
+    {
+      "name": "Goal",
+      "type": "integer"
+    },
+    {
+      "name": "Fouls",
+      "type": "integer"
+    },
+    {
+      "name": "Corners",
+      "type": "integer"
+    },
+    {
+      "name": "Offsides",
+      "type": "integer"
+    },
+    {
+      "name": "Yellow Cards",
+      "type": "integer"
+    },
+    {
+      "name": "Red Cards",
+      "type": "integer"
+    },
+    {
+      "name": "Free Kicks",
+      "type": "integer"
+    },
+    {
+      "name": "Shots",
+      "type": "integer"
+    },
+    {
+      "name": "Score",
+      "type": "string"
+    }
+  ]
+}
